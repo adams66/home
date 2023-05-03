@@ -1,17 +1,54 @@
+import * as helper from "./helper/helper"
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
+import {
+  createBrowserRouter,
+  createRoutesFromElements,
+  BrowserRouter,
+  Route,
+  Router,
+  Routes,
+  RouterProvider,
+} from "react-router-dom";
+import Home from './pages/Home/Home';
+import Projects from './pages/Projects/Projects';
+import Error from './pages/Error/Error';
+import './App.css';
+import './icons/remixicon.css';
+import key from './key/key.json';
+import projects from './key/projects.json';
+
+
+
+ var theme = helper.theme(key.theme);
+console.log(theme);
+
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+<BrowserRouter>
+  <Routes>
+  <Route path="/" element={<Home />} />
+  <Route path="/projects" element={<Projects />} />
+  <Route path="/*" element={<Error />} />
+  </Routes>
+</BrowserRouter>
   </React.StrictMode>
 );
 
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
