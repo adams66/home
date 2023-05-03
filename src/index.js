@@ -5,6 +5,7 @@ import {
   createBrowserRouter,
   createRoutesFromElements,
   BrowserRouter,
+  HashRouter,
   Route,
   Router,
   Routes,
@@ -28,13 +29,13 @@ console.log(theme);
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-<BrowserRouter>
+<HashRouter>
   <Routes>
   <Route path="/" element={<Home />} />
   <Route path="/projects" element={<Projects />} />
   <Route path="/*" element={<Error />} />
   </Routes>
-</BrowserRouter>
+</HashRouter>
   </React.StrictMode>
 );
 
