@@ -31,7 +31,7 @@ function About(props) {
             </div>
             <div className="container-2">
                 <div style={{ position: "relative", width: "100%"}}>
-                <img  className="me" width="100%" src="./me.jpg" alt="" />
+                <img  className="me" width="100%" src="/home/me.jpg" alt="" />
                 <div  className="overlay"></div>
                 </div>
             </div>
