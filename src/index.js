@@ -22,20 +22,21 @@ import projects from './key/projects.json';
 
 
  var theme = helper.theme(key.theme);
-console.log(theme);
+var url = window.location.hostname;
+
 
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-<HashRouter>
+<BrowserRouter>
   <Routes>
-  <Route path="/" element={<Home />} />
+  <Route path="/home" element={<Home  />} />
   <Route path="/projects" element={<Projects />} />
   <Route path="/*" element={<Error />} />
   </Routes>
-</HashRouter>
+</BrowserRouter>
   </React.StrictMode>
 );
 

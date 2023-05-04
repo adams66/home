@@ -9,7 +9,7 @@ import MainLayout from '../../layout/MainLayout';
 
 function Home(props) {
 	return (
-		<MainLayout >
+		<MainLayout  >
 			<Showcase  />
 			<About />
 			<Projects />

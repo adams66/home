@@ -1,11 +1,11 @@
 export function theme(key){
-var checkTheme = localStorage.getItem("theme");
+var checkTheme = localStorage.getItem("home-theme");
 var r = document.querySelector(":root");
 
 
 
 if(checkTheme == null || checkTheme == ""){
-var a = localStorage.getItem("theme");
+localStorage.setItem("home-theme", "undecided");
 
 }
 
