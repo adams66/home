@@ -5,6 +5,10 @@ import Card from "./cards/Card";
 
 function Projects(props) {
     var websites = webSites[2].data;
+    var websiteCut = websites.slice(0,3);
+    console.log(websiteCut);
+
+
     console.log(websites);
     return (  
         <div className="main-container margin-bottom-100" id="projects">
@@ -18,9 +22,11 @@ function Projects(props) {
 
             <div className="grid-container margin-bottom-40">
 
-              {websites.map((w)=>{
+              {websiteCut.map((w)=>{
+    
+      
                 return(
-
+                    
                     <Card data={w} />
 
 
