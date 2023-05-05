@@ -6,6 +6,7 @@ import Contact from '../../components/Contact/Contact';
 import Footer from '../../components/Footer/Footer';
 import Particles from '../../components/Particles/Particles';
 import MainLayout from '../../layout/MainLayout';
+import Hidden from '../../components/Hidden/Hidden';
 
 function Home(props) {
 	return (
@@ -14,6 +15,7 @@ function Home(props) {
 			<About    />
 			<Projects />
 			<Contact  />
+			<Hidden />
 		</MainLayout>
 	);
 }
