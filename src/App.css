@@ -10,6 +10,9 @@
   --paragraphs: #ccd6f6;
   --particle: #1fda9a;
   --footerText: #ccd6f6;
+  --cardBorder: #55f7f7;
+
+
 }
 
 
@@ -374,7 +377,7 @@ a {
   border-radius: 10px;
   background-color: transparent;
   transition: 0.3s ease-in-out;
-  border: 1px solid #55f7f7;
+  border: 1px solid var(--cardBorder);
 }
 
 .item:hover {
@@ -433,11 +436,6 @@ a {
   text-align: center;
   text-decoration: none;
   font-weight: bolder;
-}
-
-.btn:hover {
-
-
 }
 
 .button-resume {

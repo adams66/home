@@ -1,19 +1,34 @@
 {
-"theme":{
-"default": {"background": "#151f60", "particles":"blue", "buttons":"#fc6759", "themeMain" :"#fc6759", "mainText": "","paragraph": "#fff"},
-"oreo" :{"background": "#003087", "particles":"black", "buttons":"#fc6759", "themeMain" :"#7CC6F2", "mainText": "#fff", "paragraph": "#fff" },
-"sourPatch" :{"background": "#170e67", "particles":"#2cadfd", "buttons":"#fc6759", "themeMain" :"#ff3155", "mainText": "#fff", "paragraph": "#fff" }
-
-
-
-
-
-
-}
-
-
-
-
-
-
+    "theme": {
+        "default": {
+            "background": "#151f60",
+            "particles": "blue",
+            "buttons": "#fc6759",
+            "themeMain": "#fc6759",
+            "mainText": "",
+            "paragraph": "#fff",
+            "slidebar": "#fc6759",
+            "cardsBorder": "#55f7f7"
+        },
+        "oreo": {
+            "background": "#003087",
+            "particles": "black",
+            "buttons": "#fc6759",
+            "themeMain": "#7CC6F2",
+            "mainText": "#fff",
+            "paragraph": "#fff",
+            "slidebar": "#7CC6F2",
+            "cardsBorder": "#55f7f7"
+        },
+        "sourPatch": {
+            "background": "#170e67",
+            "particles": "#2cadfd",
+            "buttons": "#fc6759",
+            "themeMain": "#ff3155",
+            "mainText": "#fff",
+            "paragraph": "#fff",
+            "slidebar": "#ff3155",
+            "cardsBorder": "#2cadfd"
+        }
+    }
 }
