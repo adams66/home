@@ -5,7 +5,7 @@ import Particles from "../components/Particles/Particles";
 
 function MainLayout(props) {
     return (
-        <div>
+        <div style={{height: "100vh"}}>
         <Navbar  />
         {props.children}
         <Footer />

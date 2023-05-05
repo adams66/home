@@ -42,7 +42,7 @@ function Navbar(props) {
 					<a className="navbar-link" href="#contact">
 						<span className="number-size margin-right-5 color-text-Theme">03.</span>Contact
 					</a>
-					<a className="btn padding-15-20 color-text-Theme" href="resumeFinal.pdf" download>
+					<a className="btn padding-15-20 color-text-Theme" href="/home/resumeFinal.pdf" download>
 						Resume
 					</a>
 				</div>

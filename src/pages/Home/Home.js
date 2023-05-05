@@ -8,7 +8,7 @@ import Particles from '../../components/Particles/Particles';
 import MainLayout from '../../layout/MainLayout';
 import Hidden from '../../components/Hidden/Hidden';
 
-function Home(props) {
+function Home() {
 	return (
 		<MainLayout>
 			<Showcase />

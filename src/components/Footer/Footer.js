@@ -13,7 +13,7 @@ function Footer() {
             </div>
           
             <div className="copy">
-                <p className="color-footer-text margin-bottom-20 copyrights">Copyright &copy Dal10. All Rights Reserved</p>
+                <p className="color-footer-text margin-bottom-20 copyrights">Copyright &copy; Dal10. All Rights Reserved</p>
             </div>
 
             <div className="email sticky-right">

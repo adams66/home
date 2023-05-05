@@ -1,10 +1,16 @@
+import { Link} from "react-router-dom";
 import "./hidden.css";
 
 
 function Hidden() {
+
+
+
     return ( 
 
-<button className="hidden">Click </button>
+<Link to="/home/theme">
+<div className="hidden">Click</div>
+</Link>
 
      );
 }

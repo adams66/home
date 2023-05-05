@@ -1,4 +1,5 @@
 import { NavLink } from "react-router-dom";
+
 import * as helper from "../../helper/helper";
 import webSites from "../../key/projects.json";
 import Card from "./cards/Card";
@@ -37,19 +38,9 @@ function Projects(props) {
 
               })}
 
-
-
-
-
-
-
-
-
-
-      
             </div>
             <div className="more flex flex-j-center">
-            <NavLink  className="btn padding-15  margin-auto color-text-Theme color-border-Theme" to="/projects">All Projects</NavLink>
+            <NavLink  className="btn padding-15  margin-auto color-text-Theme color-border-Theme" to="/home/projects">All Projects</NavLink>
             </div>
         </div>
     </div>
