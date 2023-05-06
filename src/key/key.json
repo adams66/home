@@ -30,7 +30,7 @@
         },
        {
             "theme": "sourPatch",
-            "image": "/home/oreo.png",
+            "image": "/home/sour.png",
             "svg":"",
             "background": "#170e67",
             "particlesSwitch":"true",
