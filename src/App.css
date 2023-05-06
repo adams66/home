@@ -473,8 +473,6 @@ a {
 .hamburger-container {
   z-index: 4;
   display: none;
-  top: 30px;
-  right: 40px;
   cursor: pointer;
   width: 50px;
   height: 50px;
@@ -651,9 +649,7 @@ a {
 
   .hamburger-container {
     display: block;
-    position: fixed;
-    top: 20px;
-    right: 30px;
+
   }
 
   #navbar-key .hamburger-container {
