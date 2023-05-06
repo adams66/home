@@ -1,6 +1,8 @@
 {
-    "theme": {
-        "default": {
+    "theme": 
+            [{
+            "theme": "default",
+            "image": "/home/pizza.png",
             "svg":"",
             "background": "#151f60",
             "particlesSwitch":"true",
@@ -12,7 +14,9 @@
             "slidebar": "#fc6759",
             "cardsBorder": "#55f7f7"
         },
-        "oreo": {
+       {
+            "theme": "oreo",
+            "image": "/home/oreo.png",
             "svg":"",
             "background": "#003087",
             "particlesSwitch":"false",
@@ -24,7 +28,9 @@
             "slidebar": "#7CC6F2",
             "cardsBorder": "#55f7f7"
         },
-        "sourPatch": {
+       {
+            "theme": "sourPatch",
+            "image": "/home/oreo.png",
             "svg":"",
             "background": "#170e67",
             "particlesSwitch":"true",
@@ -36,5 +42,6 @@
             "slidebar": "#ff3155",
             "cardsBorder": "#2cadfd"
         }
-    }
+
+    ]
 }

@@ -1,4 +1,14 @@
 function Footer() {
+
+function resetTheme(){
+    localStorage.setItem("home-theme", "undecided");
+    window.location.href = "/home";
+}
+
+
+
+
+
     return ( <div className="footer">
     <div className="main-inner">
         <div className="section margin-auto flex flex-j-center flex-a-center flex-column">
@@ -13,7 +23,7 @@ function Footer() {
             </div>
           
             <div className="copy">
-                <p className="color-footer-text margin-bottom-20 copyrights">Copyright &copy; Dal10. All Rights Reserved</p>
+                <p className="color-footer-text margin-bottom-20 copyrights">Copyright &copy; Dal10. All Rights Reserved <button onClick={resetTheme}>Reset Theme</button></p>
             </div>
 
             <div className="email sticky-right">
