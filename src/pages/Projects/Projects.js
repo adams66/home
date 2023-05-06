@@ -24,7 +24,7 @@ window.scrollTo(0,0);
 				<div class="main-inner">
 					<div class="section margin-auto">
 						<div class="heading-container  margin-bottom-40">
-							<h2 class="sub-headings no-wrap text-center">All Projects</h2>
+							<h2 class="color-main-heading-theme no-wrap text-center">All Projects</h2>
 						</div>
 
 						<div class="grid-container margin-bottom-40">

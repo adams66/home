@@ -5,7 +5,7 @@ var r = document.querySelector(":root");
 
 
 if(checkTheme == null || checkTheme == ""){
-localStorage.setItem("home-theme", "undecided");
+localStorage.setItem("home-theme", "oreo");
 
 }
 
