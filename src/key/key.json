@@ -1,6 +1,7 @@
 {
     "theme": {
         "default": {
+            "svg":"",
             "background": "#151f60",
             "particles": "blue",
             "buttons": "#fc6759",
@@ -11,6 +12,7 @@
             "cardsBorder": "#55f7f7"
         },
         "oreo": {
+            "svg":"",
             "background": "#003087",
             "particles": "black",
             "buttons": "#fc6759",
@@ -21,6 +23,7 @@
             "cardsBorder": "#55f7f7"
         },
         "sourPatch": {
+            "svg":"",
             "background": "#170e67",
             "particles": "#2cadfd",
             "buttons": "#fc6759",

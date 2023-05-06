@@ -6,17 +6,21 @@ import Contact from '../../components/Contact/Contact';
 import Footer from '../../components/Footer/Footer';
 import Particles from '../../components/Particles/Particles';
 import MainLayout from '../../layout/MainLayout';
-import Hidden from '../../components/Hidden/Hidden';
 import Splash from '../../components/Splash/Splash';
+import { useEffect } from 'react';
 
 function Home() {
+	useEffect(()=>{
+		window.scrollTo(0,0);
+			});
+
+
 	return (
 		<MainLayout>
 			<Showcase />
 			<About    />
 			<Projects />
 			<Contact  />
-			<Hidden />
 			<Splash />
 		</MainLayout>
 	);

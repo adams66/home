@@ -12,7 +12,17 @@ import key from './key/key.json';
 import projects from './key/projects.json';
 
 var theme = helper.theme(key.theme);
+var themeCheck = localStorage.getItem("home-theme");
 const root = ReactDOM.createRoot(document.getElementById('root'));
+
+
+if(themeCheck !== "undecided"){
+
+
+
+
+
+
 root.render(
   <React.StrictMode>
 <BrowserRouter>
@@ -24,7 +34,25 @@ root.render(
   </Routes>
 </BrowserRouter>
   </React.StrictMode>
+
 );
+
+}
+
+
+else{
+  root.render(
+    <React.StrictMode>
+  <BrowserRouter>
+    <Routes>
+    <Route path="/home" element={<Theme  />} />
+    </Routes>
+  </BrowserRouter>
+    </React.StrictMode>
+  
+  );
+}
+
 
 
 
