@@ -1,15 +1,15 @@
-import PlainLayout from "../../layout/PlainLayout";
+import BlankLayout from "../../layout/BlankLayout/BlankLayout";
 
 function Theme() {
     return ( 
-        <PlainLayout>
+        <BlankLayout>
         <div style={{height: "100%"}}>
            
         </div>
 
 
 
-        </PlainLayout>
+        </BlankLayout>
      );
 }
 

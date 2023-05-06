@@ -7,6 +7,7 @@ import Footer from '../../components/Footer/Footer';
 import Particles from '../../components/Particles/Particles';
 import MainLayout from '../../layout/MainLayout';
 import Hidden from '../../components/Hidden/Hidden';
+import Splash from '../../components/Splash/Splash';
 
 function Home() {
 	return (
@@ -16,6 +17,7 @@ function Home() {
 			<Projects />
 			<Contact  />
 			<Hidden />
+			<Splash />
 		</MainLayout>
 	);
 }

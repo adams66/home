@@ -14,6 +14,13 @@ function Navbar(props) {
 	}
 
 
+	function linkClick(){
+		setHamburger('');
+	}
+
+
+
+
 
 
 
@@ -33,13 +40,13 @@ function Navbar(props) {
 				</div>
 
 				<div className="nav-item-container flex flex-j-spacedEvenly flex-a-center gap-10 max-width-400">
-					<a className="navbar-link" href="#about">
+					<a onClick={linkClick} className="navbar-link" href="#about">
 						<span className="number-size margin-right-5 color-text-Theme">01.</span>About
 					</a>
-					<a className="navbar-link" href="#projects">
+					<a onClick={linkClick} className="navbar-link" href="#projects">
 						<span className="number-size margin-right-5 color-text-Theme">02.</span>Projects
 					</a>
-					<a className="navbar-link" href="#contact">
+					<a onClick={linkClick} className="navbar-link" href="#contact">
 						<span className="number-size margin-right-5 color-text-Theme">03.</span>Contact
 					</a>
 					<a className="btn padding-15-20 color-text-Theme" href="/home/resumeFinal.pdf" download>
