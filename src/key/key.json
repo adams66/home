@@ -3,6 +3,7 @@
         "default": {
             "svg":"",
             "background": "#151f60",
+            "particlesSwitch":"true",
             "particles": "blue",
             "buttons": "#fc6759",
             "themeMain": "#fc6759",
@@ -14,6 +15,7 @@
         "oreo": {
             "svg":"",
             "background": "#003087",
+            "particlesSwitch":"false",
             "particles": "black",
             "buttons": "#fc6759",
             "themeMain": "#7CC6F2",
@@ -25,6 +27,7 @@
         "sourPatch": {
             "svg":"",
             "background": "#170e67",
+            "particlesSwitch":"true",
             "particles": "#2cadfd",
             "buttons": "#fc6759",
             "themeMain": "#ff3155",
