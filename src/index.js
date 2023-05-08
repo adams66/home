@@ -11,6 +11,8 @@ import './icons/remixicon.css';
 import key from './key/key.json';
 import projects from './key/projects.json';
 
+
+var url = helper.pathUrl();
 var theme = helper.theme(key.theme);
 var themeCheck = localStorage.getItem("home-theme");
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -18,19 +20,13 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 
 if(themeCheck !== "undecided"){
 
-
-
-
-
-
 root.render(
   <React.StrictMode>
 <BrowserRouter>
   <Routes>
-  <Route path="/home" element={<Home  />} />
-  <Route path="/home/projects" element={<Projects />} />
-  <Route path="/home/theme" element={<Theme />} />
-  <Route path="/home/*" element={<Error />} />
+  <Route path={url} element={<Home pathUrl={url}  />} />
+  <Route path={url + "projects"} element={<Projects />} />
+  <Route path={url + "*"}element={<Error />} />
   </Routes>
 </BrowserRouter>
   </React.StrictMode>
@@ -45,7 +41,7 @@ else{
     <React.StrictMode>
   <BrowserRouter>
     <Routes>
-    <Route path="/home" element={<Theme  />} />
+    <Route path={url} element={<Theme  />} />
     </Routes>
   </BrowserRouter>
     </React.StrictMode>

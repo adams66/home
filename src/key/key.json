@@ -1,47 +1,57 @@
 {
-    "theme": 
-            [{
-            "theme": "default",
-            "image": "/home/pizza.png",
-            "svg":"",
-            "background": "#151f60",
-            "particlesSwitch":"true",
-            "particles": "blue",
+    "path": {
+        "local": "/home/",
+        "github": "/home/",
+        "production": "/"
+    },
+    "theme": [
+        {
+            "theme": "Pizza Planet",
+            "image": "pizza.png",
+            "logo": "#9ecb39",
+            "numbers": "#fc6759",
+            "navLink": "#fff",
+            "background": "#0b115f",
+            "particlesSwitch": "true",
+            "particles": "#9ecb39",
             "buttons": "#fc6759",
             "themeMain": "#fc6759",
             "mainText": "",
             "paragraph": "#fff",
             "slidebar": "#fc6759",
-            "cardsBorder": "#55f7f7"
+            "cardsBorder": "#9ecb39"
         },
-       {
+        {
             "theme": "oreo",
-            "image": "/home/oreo.png",
-            "svg":"",
-            "background": "#003087",
-            "particlesSwitch":"false",
-            "particles": "black",
-            "buttons": "#fc6759",
-            "themeMain": "#7CC6F2",
-            "mainText": "#fff",
+            "image": "oreo.png",
+            "logo": "white",
+            "numbers": "white",
+            "navLink": "#fff",
+            "background": "#002e80",
+            "particlesSwitch": "false",
+            "particles": "transparent",
+            "buttons": "#0040C2",
+            "themeMain": "white",
+            "mainText": "white",
             "paragraph": "#fff",
             "slidebar": "#7CC6F2",
-            "cardsBorder": "#55f7f7"
+            "cardsBorder": "white"
         },
-       {
+        {
             "theme": "sourPatch",
-            "image": "/home/sour.png",
-            "svg":"",
+            "image": "sour.png",
+            "logo": "#ff3155",
+            "numbers": "#ff3155",
+            "navLink": "#fff",
             "background": "#170e67",
-            "particlesSwitch":"true",
-            "particles": "#2cadfd",
+            "particlesSwitch": "true",
+            "particles": "#EA1B2F",
             "buttons": "#fc6759",
             "themeMain": "#ff3155",
             "mainText": "#fff",
             "paragraph": "#fff",
             "slidebar": "#ff3155",
-            "cardsBorder": "#2cadfd"
+            "cardsBorder": "#FEBE11"
         }
-
     ]
 }

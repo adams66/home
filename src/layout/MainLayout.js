@@ -6,7 +6,7 @@ import Particles from "../components/Particles/Particles";
 function MainLayout(props) {
     return (
         <div style={{height: "100vh"}}>
-        <Navbar  />
+        <Navbar pathUrl={props.pathUrl} />
         {props.children}
         <Footer />
         <Particles />

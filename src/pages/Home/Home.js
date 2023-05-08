@@ -9,14 +9,14 @@ import MainLayout from '../../layout/MainLayout';
 import Splash from '../../components/Splash/Splash';
 import { useEffect } from 'react';
 
-function Home() {
+function Home(props) {
 	useEffect(()=>{
 		window.scrollTo(0,0);
 			});
 
 
 	return (
-		<MainLayout>
+		<MainLayout pathurl={props.pathurl}>
 			<Showcase />
 			<About    />
 			<Projects />

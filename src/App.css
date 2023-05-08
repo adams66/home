@@ -1,33 +1,42 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap");
 
 :root{
+  --logo:#fc6759;
+  --numbers: #fc6759;
+  --nav-link: #fff;
   --background: #151f60; 
   --slideBar: #fc6759; 
   --mainTheme: #fc6759;
   --mainHeading: #ccd6f6; 
+  --subHeading:#fff;
   --line: #8892b0;
   --icons: #ccd6f6;
   --paragraphs: #ccd6f6;
   --particle: #1fda9a;
   --footerText: #ccd6f6;
   --cardBorder: #55f7f7;
-
-
 }
 
-
 * {
-
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
+
+
+.logo{fill: var(--logo);}
+.numbers{color: var(--numbers)}
+.navbar-link{color: var(--nav-link);}
+
+
+
 .color-background-Theme{background-color: var(--mainTheme);}
+.color-subheading-Theme{color: var(--subHeading);}
 .color-text-Theme{color: var(--mainTheme);}
 .color-border-Theme{border-color: var(--mainTheme);}
 .color-fill-Theme{fill: var(--mainTheme);}
-.color-icons-fill-Theme{color:var(--icons)}
-.color-footer-text{color: var(--footerText)}
+.color-icons-fill-Theme{color:var(--icons);}
+.color-footer-text{color: var(--footerText);}
 
 
 .color-main-heading-theme{
@@ -42,7 +51,8 @@ html, body {
 }
 
 body {
-  background-color: var(--background);
+  background: var(--background);
+
 }
 
 .main-inner {
@@ -382,7 +392,7 @@ a {
 
 .item:hover {
   transform: translateY(-10px);
-  box-shadow: 0px 0px 20px #fc6759;
+  box-shadow: 0px 0px 20px var(--mainTheme);
 }
 
 .card {
@@ -466,7 +476,6 @@ a {
 }
 
 .navbar-link {
-  color: #fff;
   text-decoration: none;
 }
 

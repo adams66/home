@@ -13,7 +13,7 @@ function Showcase(props) {
     
             <div className="section">
                 <h3  className="margin-bottom-20 color-text-Theme">Hi, my name is</h3>
-                <h1 className="color-main-heading-theme margin-bottom-20 gap-10">Dalton Adams. <br /> <span className="off-white">I build things for the web.</span></h1>
+                <h1 className="color-main-heading-theme margin-bottom-20 gap-10">Dalton Adams. <br /> <span className="subHeading">I build things for the web.</span></h1>
                 <p  className="paragraphs max-width-400 margin-bottom-40 ">I'm a web developer specializing in frontend layouts, automation and administration. Every problem that we face has the opportunity to be fixed.</p>
                 <a   style={{display: "inline-block" }} className="btn padding-15 color-text-Theme color-border-Theme" href="#projects">Check out my Project!</a>
               </div>

@@ -23,24 +23,11 @@ function Projects(props) {
 
             <div className="grid-container margin-bottom-40">
 
-              {websiteCut.map((w)=>{
-    
-      
-                return(
-                    
-                    <Card data={w} />
-
-
-
-                )
-
-
-
-              })}
+              {websiteCut.map((w)=>{ return(<Card data={w} />) })}
 
             </div>
             <div className="more flex flex-j-center">
-            <NavLink  className="btn padding-15  margin-auto color-text-Theme color-border-Theme" to="/home/projects">All Projects</NavLink>
+            <NavLink  className="btn padding-15  margin-auto color-text-Theme color-border-Theme" to="projects">All Projects</NavLink>
             </div>
         </div>
     </div>
