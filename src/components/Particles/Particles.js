@@ -1,4 +1,4 @@
-
+import "./particles.css"
 
 function Particles(props) {
 

@@ -1,7 +1,3 @@
-import Navbar from '../../components/Navbar/Navbar';
-import Footer from '../../components/Footer/Footer';
-import Particles from '../../components/Particles/Particles';
-import MainLayout from '../../layout/MainLayout';
 import webSites from '../../key/projects.json';
 import Card from '../../components/Projects/cards/Card';
 import { useEffect } from 'react';
@@ -11,7 +7,6 @@ import NavbarPlain from '../../components/NavbarPlain/NavbarPlain';
 
 function Projects() {
 	var websites = webSites[2].data;
-
 
     useEffect(()=>{
 window.scrollTo(0,0);
@@ -24,7 +19,7 @@ window.scrollTo(0,0);
 				<div class="main-inner">
 					<div class="section margin-auto">
 						<div class="heading-container  margin-bottom-40">
-							<h2 class="color-main-heading-theme no-wrap text-center">All Projects</h2>
+							<h2 class="sectionHeading no-wrap text-center">All Projects</h2>
 						</div>
 
 						<div class="grid-container margin-bottom-40">
@@ -38,5 +33,4 @@ window.scrollTo(0,0);
 		</PlainLayout>
 	);
 }
-
 export default Projects;

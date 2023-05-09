@@ -1,5 +1,4 @@
-
-import * as helper from '../../helper/helper';
+import "./navbar.css";
 import { useState } from 'react';
 import {Link} from 'react-router-dom';
 
@@ -7,8 +6,10 @@ function Navbar(props) {
 	const [ hamburger, setHamburger ] = useState('');
 	function click(event) {
 		if (hamburger == '') {
+			document.body.style.overflow= "hidden";
 			setHamburger('navbar-key');
 		} else {
+			document.body.style.overflow= "visible";
 			setHamburger('');
 		}
 	}
@@ -39,26 +40,26 @@ function Navbar(props) {
 						</Link>
 				</div>
 
-				<div className="nav-item-container flex flex-j-spacedEvenly flex-a-center gap-10 max-width-400">
-					<a onClick={linkClick} className="navbar-link" href="#about">
+				<div className="nav-item-container gap-10 max-width-400">
+					<a onClick={linkClick} className="navbarLink" href="#about">
 						<span className="number-size margin-right-5 numbers">01.</span>About
 					</a>
-					<a onClick={linkClick} className="navbar-link" href="#projects">
+					<a onClick={linkClick} className="navbarLink" href="#projects">
 						<span className="number-size margin-right-5 numbers">02.</span>Projects
 					</a>
-					<a onClick={linkClick} className="navbar-link" href="#contact">
+					<a onClick={linkClick} className="navbarLink" href="#contact">
 						<span className="number-size margin-right-5 numbers">03.</span>Contact
 					</a>
-					<a className="btn padding-15-20 color-text-Theme" href="/home/resumeFinal.pdf" download>
+					<a className="buttons padding-15-20 color-text-Theme" href="/home/resumeFinal.pdf" download>
 						Resume
 					</a>
 				</div>
 
 				<div style={{ position: 'relative' }} onClick={click} className="hamburger-container">
 					<div onClick={click} className="burger">
-						<div id="line1" className="line" />
-						<div id="line2" className="line" />
-						<div id="line3" className="line" />
+						<div id="line1" className="line hamburgerColor"></div>
+						<div id="line2" className="line hamburgerColor"></div>
+						<div id="line3" className="line hamburgerColor"></div>
 					</div>
 
 					<div

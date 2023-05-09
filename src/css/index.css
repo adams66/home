@@ -1,0 +1,102 @@
+
+
+:root {
+	--logo: #fc6759;
+	--hamburger: #fc6759;
+	--numbers: #fc6759;
+	--navLink: #fff;
+	--background: #151f60;
+	--particle: #1fda9a;
+	--introText: #fc6759;
+	--name: #ccd6f6;
+	--statement: #8892b0;
+	--buttonText: #fc6759;
+	--buttonBorder: #fc6759;
+	--paragraph: #ccd6f6;
+	--sectionHeading: #ccd6f6;
+	--headingLine: #8892b0;
+	--cardBorder: #55f7f7;
+	--cardFolder: #fc6759;
+	--cardHeading: #ccd6f6;
+	--cardTech: #ccd6f6;
+	--cardLinkIcon: #ccd6f6;
+	--footerIcons: #ccd6f6;
+	--footerLine: #fc6759;
+	--footerEmail: #ccd6f6;
+	--copyRight: #ccd6f6;
+	--slidebar: #fc6759;
+	--footerText: #ccd6f6;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.logo {fill: var(--logo);}
+.hamburgerColor {background-color: var(--hamburger);}
+.numbers {color: var(--numbers);}
+.navbarLink {color: var(--navLink);}
+html {background: var(--background);}
+.introText {color: var(--introText);}
+.name {color: var(--name);}
+.statement {color: var(--statement);}
+.buttons {
+	border: 2px solid;
+	border-radius: 6px;
+	text-align: center;
+	text-decoration: none;
+	font-weight: bolder;
+	color: var(--buttonText);
+	border-color: var(--buttonBorder);
+}
+.paragraphs {color: var(--paragraph);}
+.sectionHeading {color: var(--sectionHeading);}
+.headingLine {
+	width: 25%;
+	height: 2px;
+	background-color: var(--headingLine);
+}
+.cardItem {
+	border-radius: 10px;
+	background-color: transparent;
+	transition: 0.3s ease-in-out;
+	border: 1px solid var(--cardBorder);
+}
+.cardFolder {
+	color: var(--cardFolder);
+}
+.cardheading {
+	color: var(--cardheading);
+}
+
+.cardTech {
+	color: var(--cardTech);
+}
+.cardLinkIcon {
+	color: var(--cardLinkIcon);
+}
+.footerIcons {
+	color: var(--footerIcons);
+}
+.footerLine {
+	left: 50%;
+	height: 100px;
+	width: 4px;
+	border-left: 2px solid var(--footerLine);
+}
+.footerEmail {color: var(--footerEmail);}
+.copyRight {color: var(--copyRight);}
+
+/* width */
+::-webkit-scrollbar {width: 5px;}
+/* Track */
+::-webkit-scrollbar-track {background: var(--background);}
+/* Handle */
+::-webkit-scrollbar-thumb {background: var(--slidebar);}
+
+/*********************************/
+
+
+

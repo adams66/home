@@ -1,0 +1,25 @@
+/*Container Utlities*/
+.width-100 {width: 100%;}
+.height-100{height: 100%;}
+.height-100-vh{height: 100vh;}
+.block {display: block;}
+.margin-auto {margin: 0 auto;}
+
+.main-inner {
+    margin-left: 100px;
+    margin-right: 100px;
+  }
+  
+  .section {
+    width: 80%;
+    max-width: 1000px;
+  }
+  
+
+/* Small Devices, Tablets */
+@media only screen and (max-width: 768px) {
+	.main-inner {
+		margin-left: 15px;
+		margin-right: 15px;
+	}
+}

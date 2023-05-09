@@ -6,10 +6,15 @@ import Home from './pages/Home/Home';
 import Projects from './pages/Projects/Projects';
 import Error from './pages/Error/Error';
 import Theme from "./pages/Theme/Theme";
-import './App.css';
+import './css/fontSize.css';
+import './css/index.css';
+import './css/margin.css';
+import './css/padding.css';
+import './css/containerU.css';
+import './css/flexU.css';
+
 import './icons/remixicon.css';
 import key from './key/key.json';
-import projects from './key/projects.json';
 
 
 var url = helper.pathUrl();

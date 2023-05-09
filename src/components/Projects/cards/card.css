@@ -1,0 +1,21 @@
+.tech-list {
+	display: flex;
+	gap: 15px;
+	list-style: none;
+}
+
+.item {
+	border-radius: 10px;
+	background-color: transparent;
+	transition: 0.3s ease-in-out;
+	border: 1px solid var(--cardBorder);
+}
+
+.card {
+	height: 100%;
+}
+
+.tech {
+	margin-top: auto;
+}
+
